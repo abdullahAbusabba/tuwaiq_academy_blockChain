@@ -1,0 +1,10 @@
+const animal = require("./animal");
+// import animal from "./animal";
+let Myanimal = new animal("floki", "meme");
+console.log(Myanimal.getName());
+console.log(Myanimal.getType());
+Myanimal.setName("doge");
+Myanimal.setType("pitbull");
+console.log("********************************");
+console.log(Myanimal.getName());
+console.log(Myanimal.getType());
